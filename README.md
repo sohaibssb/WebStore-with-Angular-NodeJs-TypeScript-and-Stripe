@@ -11,3 +11,17 @@ Features
     User Authentication: Register, login, and manage user accounts with authentication middleware.
     Admin Panel: Manage products, orders, and user accounts with administrative privileges.
     Responsive Design: Ensures a seamless experience across devices of all sizes.
+
+Getting Started
+
+-Prerequisites: Ensure you have Node.js.
+
+git clone git@github.com:sohaibssb/WebStore-with-Angular-NodeJs-TypeScript-and-Stripe.git
+
+npm i @angular/cli@14.2.1
+npx ng new store --routing --skip-tests --minimal
+npx ng serve
+npx ng add @angular/material
+
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init
