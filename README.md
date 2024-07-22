@@ -23,5 +23,10 @@ npx ng new store --routing --skip-tests --minimal
 npx ng serve
 npx ng add @angular/material
 
-npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 npx tailwindcss init
+
+Add New Component:
+
+npx ng g c ComponentName
