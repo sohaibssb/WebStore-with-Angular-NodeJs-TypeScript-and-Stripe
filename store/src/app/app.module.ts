@@ -26,6 +26,7 @@ import { ProductsHeaderComponent } from './pages/home/components/products-header
 
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsBoxComponent } from './pages/home/components/products-box/products-box.component';
+import { CartComponent } from './pages/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductsBoxComponent } from './pages/home/components/products-box/produ
     FiltersComponent,
     ProductsHeaderComponent,
     HomeComponent,
-    ProductsBoxComponent
+    ProductsBoxComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
