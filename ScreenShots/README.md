@@ -14,5 +14,11 @@ In this section, I'm sharing some screenshots taken while I was working on and b
 -Home Page - ProductsComponent-View2
 ![ProductsComponent-View2-HomePage](04-ProductsComponent-View2.png)
 
+-Cart Page
+![CartPage](05-CartPage.png)
+
+-Add Item
+![AddItem](06-AddItem.png)
+
 
 

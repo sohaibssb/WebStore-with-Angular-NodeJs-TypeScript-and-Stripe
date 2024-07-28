@@ -28,6 +28,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsBoxComponent } from './pages/home/components/products-box/products-box.component';
 import { CartComponent } from './pages/cart/cart.component';
 
+import { CartService } from './services/cart.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +57,7 @@ import { CartComponent } from './pages/cart/cart.component';
     MatSnackBarModule,
     MatListModule,
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
