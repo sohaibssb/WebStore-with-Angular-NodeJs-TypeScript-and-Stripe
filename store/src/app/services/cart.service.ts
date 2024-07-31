@@ -38,5 +38,15 @@ export class CartService {
       duration: 3000
     });
   }
+
+  removeFromCart(item: CartItem): void {
+    const filteredItems = this.cart.value.items.filter(
+      (_item) => _item.id !== item.id
+    );
+    this.cart.next({ items: filteredItems });
+    this._snackBar.open('1 Item Removed From Cart', 'Ok', {
+      duration: 3000
+    });
+  }
   
 }
