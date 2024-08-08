@@ -20,5 +20,8 @@ In this section, I'm sharing some screenshots taken while I was working on and b
 -Add Item
 ![AddItem](06-AddItem.png)
 
+-Updated Home Page
+![HomePage](07-HomePage.png)
+
 
 
