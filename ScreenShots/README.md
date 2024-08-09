@@ -23,5 +23,8 @@ In this section, I'm sharing some screenshots taken while I was working on and b
 -Updated Home Page
 ![HomePage](07-HomePage.png)
 
+-Checkout Page - Stripe
+![CheckoutPage](08-PaymentPage.png)
+
 
 
