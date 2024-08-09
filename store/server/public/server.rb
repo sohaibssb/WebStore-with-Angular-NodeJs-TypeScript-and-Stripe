@@ -1,8 +1,9 @@
 require 'stripe'
 require 'sinatra'
+require 'dotenv/load' 
 
 # This is your test secret API key.
-Stripe.api_key = 'sk_test_51PbmbhFPC81euvhLYN0jOszT0BiO51XUEvND33uINvOEBX36zf04aJKS4q9QCgHafcGTKTOwu90aItRAODe3wBEf00vtodG6dt'
+Stripe.api_key = ENV['STRIPE_API_KEY']
 
 set :static, true
 set :port, 4242
